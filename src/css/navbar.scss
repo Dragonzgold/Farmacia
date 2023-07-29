@@ -1,0 +1,32 @@
+.navbarComplete{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar{
+    background-color: #444;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+}
+
+.logoNavbar {
+    margin-top: 0%;
+    height: 10vh;
+    width: 33vh;
+    @media screen and (max-width: 768px){
+        margin-top: -5%;
+    }
+}
+
+.btn{
+    margin-left: 15px;
+    height: 5vh;
+    width: 15vh;
+}
+
+.gammamonVpet{
+    margin-top: -46%;
+    width: 10vw;
+}
